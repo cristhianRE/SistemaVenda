@@ -1,0 +1,16 @@
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\bin\Debug\netcoreapp3.0\2.1 - Dominio.deps.json
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\bin\Debug\netcoreapp3.0\2.1 - Dominio.dll
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\bin\Debug\netcoreapp3.0\2.1 - Dominio.pdb
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.csprojAssemblyReference.cache
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.AssemblyInfoInputs.cache
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.AssemblyInfo.cs
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.dll
+C:\Users\Cristhian\Desktop\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.pdb
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\bin\Debug\netcoreapp3.0\2.1 - Dominio.deps.json
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\bin\Debug\netcoreapp3.0\2.1 - Dominio.dll
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\bin\Debug\netcoreapp3.0\2.1 - Dominio.pdb
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.csprojAssemblyReference.cache
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.AssemblyInfoInputs.cache
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.AssemblyInfo.cs
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.dll
+C:\Users\Cristhian\Desktop\ASP.NET Core +Entity Framework\4 ASP.NET CORE + ENTITY FRAMEWORK + DDD (Domain-Driven Design)\ProjetoTeste\SistemaVenda\Dominio\Dominio\obj\Debug\netcoreapp3.0\2.1 - Dominio.pdb
