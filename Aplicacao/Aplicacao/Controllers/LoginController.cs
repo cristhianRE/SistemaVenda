@@ -35,8 +35,48 @@ namespace SistemaVenda.Controllers
         {
             if (ModelState.IsValid)
             {
-                bool login  = Servico.ValidarLogin(model.Email, model.Senha);
-                var usuario = Servico.RetornarDadosUsuario(model.Email, model.Senha); 
+                bool login = Servico.ValidarLogin(model.Email, model.Senha);
+
+                var usuario = Servico.RetornarDadosUsuario(model.Email, model.Senha);
+
+                if (login)
+                {
+                    // colocar dados do usuario na sessão
+                    httpContextAccessor.HttpContext.Session.SetString(Sessao.NOME_USUARIO, usuario.Nome);
+                    httpContextAccessor.HttpContext.Session.SetString(Sessao.EMAIL_USUARIO, usuario.Email);
+                    httpContextAccessor.HttpContext.Session.SetInt32(Sessao.CODIGO_USUARIO, (int)usuario.Codigo);
+                    httpContextAccessor.HttpContext.Session.SetInt32(Sessao.LOGADO, 1);
+
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ViewData["ErroLogin"] = "O Email ou Senha nao existe no sistema!";
+                    return View(model);
+                }
+            }
+            else
+            {
+                return View(model);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastro(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                Servico.CadastrarUsuario(model);
+
+                bool login = Servico.ValidarLogin(model.Email, model.Senha);
+
+                var usuario = Servico.RetornarDadosUsuario(model.Email, model.Senha);
 
                 if (login)
                 {

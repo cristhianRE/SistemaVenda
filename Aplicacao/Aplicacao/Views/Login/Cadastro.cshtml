@@ -1,0 +1,42 @@
+﻿@model SistemaVenda.Models.LoginViewModel;
+
+@{
+    ViewData["Title"] = "Cadastro";
+    Layout = null;
+}
+
+<link href="~/css/Login.css" rel="stylesheet" />
+
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <div style="float:left; width:100%; height:20px; "></div>
+            <img src="~/img/logo.png" id="icon" alt="User Icon" />"
+            <div style="float:left; width:100%; height:20px; "></div>
+
+        </div>
+
+        <!-- Login Form -->
+        <form asp-for="Login" asp-action="Cadastro" method="post">
+            <input asp-for="Nome" type="text" class="fadeIn second" placeholder="Nome">
+            <span asp-validation-for="Email" style="color:red"></span>
+            <input asp-for="Email" type="text" class="fadeIn second" placeholder="Email">
+            <span asp-validation-for="Email" style="color:red"></span>
+            <input asp-for="Senha" type="password" class="fadeIn third" placeholder="Senha">
+            <span asp-validation-for="Senha" style="color:red"></span>
+            <br />
+            <input type="submit" class="fadeIn fourth" value="Cadastrar">
+            <input type="button" class="fadeIn fourth" value="Entrar" onclick="javascript: window.location.href='../../Login/Index'">
+            <br />
+            <span style="color:red">@ViewData["ErroLogin"]</span>
+        </form>
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            <a class="underlineHover" href="#">Esqueceu a Senha?</a>
+        </div>
+
+    </div>
+</div>

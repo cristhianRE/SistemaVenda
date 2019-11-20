@@ -4,6 +4,9 @@ namespace SistemaVenda.Models
 {
     public class LoginViewModel
     {
+        [Required(ErrorMessage = "Informe o Nome!")]
+        public string Nome { get; set; }
+
         [Required(ErrorMessage = "Informe o Email!")]
         public string Email { get; set; }
 

@@ -6,5 +6,6 @@ namespace SistemaVenda.Dominio.Repositorio
     {
         bool ValidarLogin(string email, string senha);
 
+        void CadastrarUsuario(Usuario obj);
     }
 }

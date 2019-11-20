@@ -11,6 +11,11 @@ namespace SistemaVenda.Repositorio.Entidades
         {
         }
 
+        public void CadastrarUsuario(Usuario obj)
+        {
+            DbSetContext.Add(obj);
+        }
+
         public bool ValidarLogin(string email, string senha)
         {
             var usuario = DbSetContext.Where(x => x.Email == email

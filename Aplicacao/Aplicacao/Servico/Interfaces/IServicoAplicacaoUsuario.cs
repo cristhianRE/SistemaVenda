@@ -1,4 +1,5 @@
 ﻿using SistemaVenda.Dominio.Entidades;
+using SistemaVenda.Models;
 
 namespace SistemaVenda.Aplicacao.Servico.Interfaces
 {
@@ -6,5 +7,6 @@ namespace SistemaVenda.Aplicacao.Servico.Interfaces
     {
         bool ValidarLogin(string email, string senha);
         Usuario RetornarDadosUsuario(string email, string senha);
+        void CadastrarUsuario(LoginViewModel objVM);
     }
 }

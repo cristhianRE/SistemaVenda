@@ -1,6 +1,7 @@
 ﻿using SistemaVenda.Aplicacao.Servico.Interfaces;
 using SistemaVenda.Dominio.Entidades;
 using SistemaVenda.Dominio.Interfaces;
+using SistemaVenda.Models;
 using System.Linq;
 
 namespace Aplicacao.Servico
@@ -24,6 +25,18 @@ namespace Aplicacao.Servico
         public bool ValidarLogin(string email, string senha)
         {
             return Servico.ValidarLogin(email, senha);
+        }
+
+        public void CadastrarUsuario(LoginViewModel objVM)
+        {
+            Usuario obj = new Usuario
+            {
+                Nome = objVM.Nome,
+                Email = objVM.Email,
+                Senha = objVM.Senha
+            };
+
+            Servico.Cadastrar(obj);
         }
     }
 }
